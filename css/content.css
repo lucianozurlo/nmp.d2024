@@ -789,9 +789,12 @@
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
+	/* clip-path: inset(0 31%); */
 	clip-path: inset(0 0);
-	-webkit-transform: scale(0.48, 0.48) translateX(14%);
-	transform: scale(0.48, 0.48) translateX(14%)
+	/* -webkit-transform: scale(0.48, 0.48) translateX(14%);
+	transform: scale(0.48, 0.48) translateX(14%) */
+	-webkit-transform: scale(0.48);
+	transform: scale(0.48);
 }
 
 .load-project-thumb-with-title .next-project-image {
@@ -950,7 +953,7 @@
 
 .next-hero-progress {
 	position: absolute;
-	top: 0;
+	bottom: 0;
 	right: 0;
 	height: 6px;
 	width: 100%;
