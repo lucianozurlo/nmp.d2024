@@ -1139,7 +1139,7 @@ h6.has-mask span>span {
 	display: inline;
 	vertical-align: top;
 	line-height: inherit;
-	font-family: 'fraktionsans', sans-serif;
+	font-family: 'FraktionSans', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	text-transform: initial;
@@ -2162,7 +2162,7 @@ input#verify {
 input,
 textarea {
 	color: rgba(34, 34, 34, 1);
-	font-family: 'fraktionsans', sans-serif;
+	font-family: 'FraktionSans', sans-serif;
 	font-size: 16px;
 	font-weight: 500;
 	height: 50px;
@@ -2314,7 +2314,7 @@ input[type="submit"] {
 	background: transparent;
 	border: none;
 	color: #fff;
-	font-family: 'fraktionsans', sans-serif;
+	font-family: 'FraktionSans', sans-serif;
 	font-size: 18px;
 	font-weight: 500;
 	padding-left: 50px;

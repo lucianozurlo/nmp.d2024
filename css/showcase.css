@@ -696,14 +696,14 @@ footer .progress-info {
 	font-size: 20px;
 	line-height: 30px;
 	font-weight: 500;
-	font-family: 'fraktionsans', sans-serif;
+	font-family: 'FraktionSans', sans-serif;
 	color: #222;
 	overflow: hidden;
 	text-align: center;
 }
 
 .showcase-carousel .nmp-slide .slide-caption .slide-title em {
-	font-family: 'fraktionsans', sans-serif;
+	font-family: 'FraktionSans', sans-serif;
 }
 
 .showcase-carousel .slide-caption .slide-title span {
@@ -1240,7 +1240,7 @@ footer .progress-info {
 }
 
 .showcase-portfolio:not(.list-grid) .slide-caption .slide-title em {
-	font-family: 'fraktionsans', sans-serif;
+	font-family: 'FraktionSans', sans-serif;
 }
 
 .showcase-portfolio .slide-caption .slide-cat {

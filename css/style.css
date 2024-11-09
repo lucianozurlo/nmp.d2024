@@ -1,11 +1,3 @@
-/*------------------------------------------------------------------
-Project:	Serano - Creative Portfolio Template
-Version:	1.0
-Last change:	15/08/2022
-Assigned to:	www.ClaPat.com 
-Primary use:	Showcase Portfolio 
--------------------------------------------------------------------*/
-
 @import url("content.css");
 @import url("showcase.css");
 @import url("shortcodes.css");
@@ -13,103 +5,104 @@ Primary use:	Showcase Portfolio
 
 @font-face {
 	font-family: 'FraktionSans';
-	src: url('../fonts/FraktionSans-Black.woff2') format('woff2'),
-		url('../fonts/FraktionSans-Black.woff') format('woff'),
-		url('../fonts/FraktionSans-Black.ttf') format('truetype');
+	src: url('../fonts/FraktionSans-regularitalic.eot');
+	src: url('../fonts/FraktionSans-regularitalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FraktionSans-regularitalic.woff2') format('woff2'),
+		url('../fonts/FraktionSans-regularitalic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'FraktionSans';
+	src: url('../fonts/FraktionSans-black.eot');
+	src: url('../fonts/FraktionSans-black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FraktionSans-black.woff2') format('woff2'),
+		url('../fonts/FraktionSans-black.woff') format('woff');
 	font-weight: 900;
 	font-style: normal;
-	font-display: swap;
 }
 
 @font-face {
 	font-family: 'FraktionSans';
-	src: url('../fonts/FraktionSans-BlackItalic.woff2') format('woff2'),
-		url('../fonts/FraktionSans-BlackItalic.woff') format('woff'),
-		url('../fonts/FraktionSans-BlackItalic.ttf') format('truetype');
+	src: url('../fonts/FraktionSans-blackitalic.eot');
+	src: url('../fonts/FraktionSans-blackitalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FraktionSans-blackitalic.woff2') format('woff2'),
+		url('../fonts/FraktionSans-blackitalic.woff') format('woff');
 	font-weight: 900;
 	font-style: italic;
-	font-display: swap;
 }
 
 @font-face {
 	font-family: 'FraktionSans';
-	src: url('../fonts/FraktionSans-Bold.woff2') format('woff2'),
-		url('../fonts/FraktionSans-Bold.woff') format('woff'),
-		url('../fonts/FraktionSans-Bold.ttf') format('truetype');
-	font-weight: 700;
+	src: url('../fonts/FraktionSans-bold.eot');
+	src: url('../fonts/FraktionSans-bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FraktionSans-bold.woff2') format('woff2'),
+		url('../fonts/FraktionSans-bold.woff') format('woff');
+	font-weight: bold;
 	font-style: normal;
-	font-display: swap;
 }
 
 @font-face {
 	font-family: 'FraktionSans';
-	src: url('../fonts/FraktionSans-BoldItalic.woff2') format('woff2'),
-		url('../fonts/FraktionSans-BoldItalic.woff') format('woff'),
-		url('../fonts/FraktionSans-BoldItalic.ttf') format('truetype');
-	font-weight: 700;
-	font-style: italic;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: 'FraktionSans';
-	src: url('../fonts/FraktionSans-Medium.woff2') format('woff2'),
-		url('../fonts/FraktionSans-Medium.woff') format('woff'),
-		url('../fonts/FraktionSans-Medium.ttf') format('truetype');
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: 'FraktionSans';
-	src: url('../fonts/FraktionSans-MediumItalic.woff2') format('woff2'),
-		url('../fonts/FraktionSans-MediumItalic.woff') format('woff'),
-		url('../fonts/FraktionSans-MediumItalic.ttf') format('truetype');
-	font-weight: 500;
-	font-style: italic;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: 'FraktionSans';
-	src: url('../fonts/FraktionSans-Regular.woff2') format('woff2'),
-		url('../fonts/FraktionSans-Regular.woff') format('woff'),
-		url('../fonts/FraktionSans-Regular.ttf') format('truetype');
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: '../fonts/FraktionSans-RegularItalic';
-	src: url('../fonts/FraktionSans-RegularItalic.woff2') format('woff2'),
-		url('../fonts/FraktionSans-RegularItalic.woff') format('woff'),
-		url('../fonts/FraktionSans-RegularItalic.ttf') format('truetype');
-	font-weight: 400;
-	font-style: italic;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: 'FraktionSans';
-	src: url('../fonts/FraktionSans-Light.woff2') format('woff2'),
-		url('../fonts/FraktionSans-Light.woff') format('woff'),
-		url('../fonts/FraktionSans-Light.ttf') format('truetype');
-	font-weight: 300;
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: 'FraktionSans';
-	src: url('../fonts/FraktionSans-LightItalic.woff2') format('woff2'),
-		url('../fonts/FraktionSans-LightItalic.woff') format('woff'),
-		url('../fonts/FraktionSans-LightItalic.ttf') format('truetype');
+	src: url('../fonts/FraktionSans-lightitalic.eot');
+	src: url('../fonts/FraktionSans-lightitalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FraktionSans-lightitalic.woff2') format('woff2'),
+		url('../fonts/FraktionSans-lightitalic.woff') format('woff');
 	font-weight: 300;
 	font-style: italic;
-	font-display: swap;
 }
+
+@font-face {
+	font-family: 'FraktionSans';
+	src: url('../fonts/FraktionSans-bolditalic.eot');
+	src: url('../fonts/FraktionSans-bolditalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FraktionSans-bolditalic.woff2') format('woff2'),
+		url('../fonts/FraktionSans-bolditalic.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'FraktionSans';
+	src: url('../fonts/FraktionSans-light.eot');
+	src: url('../fonts/FraktionSans-light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FraktionSans-light.woff2') format('woff2'),
+		url('../fonts/FraktionSans-light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FraktionSans';
+	src: url('../fonts/FraktionSans-mediumitalic.eot');
+	src: url('../fonts/FraktionSans-mediumitalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FraktionSans-mediumitalic.woff2') format('woff2'),
+		url('../fonts/FraktionSans-mediumitalic.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'FraktionSans';
+	src: url('../fonts/FraktionSans-medium.eot');
+	src: url('../fonts/FraktionSans-medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FraktionSans-medium.woff2') format('woff2'),
+		url('../fonts/FraktionSans-medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FraktionSans';
+	src: url('../fonts/FraktionSans-regular.eot');
+	src: url('../fonts/FraktionSans-regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FraktionSans-regular.woff2') format('woff2'),
+		url('../fonts/FraktionSans-regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 
 /*------------------------------------------------------------------
