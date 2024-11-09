@@ -65,12 +65,12 @@
         margin: 10px 0;
     }
 
-    #main.project-detail.detail-project #hero.has-image #hero-caption .inner .from {
+    #main.project-detail.detail-project #hero.has-image #caption-img .inner .from {
         font-size: 1.6vw;
     }
 
-    #main.project-detail.detail-project #hero.has-image #hero-caption .inner .desc,
-    #main.project-detail.detail-project #hero.has-image #hero-caption .inner .anio {
+    #main.project-detail.detail-project #hero.has-image #caption-img .inner .desc,
+    #main.project-detail.detail-project #hero.has-image #caption-img .inner .anio {
         font-size: 1.1vw;
     }
 
